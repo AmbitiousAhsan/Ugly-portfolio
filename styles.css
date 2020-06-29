@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    height: 100%;
+    text-align: center;
+    background-color: #fee2b3;
+    font-family: 'Kalam', cursive;
+}
+
+.clear{
+    clear: both;
+}
+
+hr {
+    border-top: 4px dotted gray;
+    width: 30%;
+}
+
+.top-container {
+    background-image: url(../images/Banner.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 200px; 
+    padding-bottom: 200px;
+}
+
+h1{
+    font-family: 'Satisfy', cursive;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h3{
+    font-family: 'Satisfy', cursive;
+}
+
+img{
+   width: 300px;
+   margin-top: 20px;
+   
+}
+
+.me {
+    border: 1px solid black;
+   border-radius: 50px;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+
+.wifi {
+    float: left;
+}
+.why {
+    float: right;
+}
+.content {
+    margin: 50px 200px;
+    display: flex;
+}
+
+.cloud{
+    float: left;
+}
+
+.computer {
+    float: right;
+}
+
+.music {
+    margin: 50px 200px;
+    display: flex;
+    
+}
+.bottom-container {
+    background-color: aqua;
+}
+
+.links {
+    margin-top: 20px;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.myButton {
+	box-shadow: 0px 0px 0px 0px #3bf009;
+	background-color:#ada480;
+	border-radius:28px;
+	border:3px solid black;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Satisfy', cursive;
+	font-size:17px;
+	padding:17px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+
